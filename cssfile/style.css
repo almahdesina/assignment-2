@@ -36,19 +36,21 @@ main {
 }
 
 .title {
-    margin-top: 20px;
+    margin-right: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-size: 30px;
 }
 
 .pragraph {
+    color: azure;
     margin-bottom: 25px;
     font-size: 10px;
 }
 
 .watch-button {
     display: inline;
-
+    color: #E6E6E6;
     border-radius: 5px;
     background-color: red;
     padding: 10px 35px 10px 10px;
@@ -60,7 +62,9 @@ main {
     max-width: max-content;
 
 }
-
+i:hover{
+   
+}
 /* -----------------
 section style two 
 -------------------*/
