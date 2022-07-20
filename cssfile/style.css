@@ -1,3 +1,48 @@
 /* Body font */
 body{font-family: 'Kanit', sans-serif;}
 
+    
+/* common utilies */
+body{
+    background-color: #E6E6E6;
+}
+main{
+  display: flex;
+ justify-content: center;
+}
+
+/* ------------
+ section style
+---------------  */
+.container{
+    background-color:#101010;
+}
+.blogs {
+    display: flex;
+    width: 800px;
+}
+.blog{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: whitesmoke;
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.pragraph{
+    margin-bottom: 25px;
+    font-size: 10px;
+}
+.watch-button{
+    display: inline;
+
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px 20px 10px 10px;
+}
+.banner-images{
+    margin-left: 70px;
+    margin-top: 20px;
+}
