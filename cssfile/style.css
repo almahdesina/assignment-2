@@ -1,51 +1,159 @@
 /* Body font */
-body{font-family: 'Kanit', sans-serif;}
+body {
+    font-family: 'Kanit', sans-serif;
+}
 
-    
+
 /* common utilies */
-body{
+body {
     background-color: #E6E6E6;
 }
-main{
-  display: flex;
- justify-content: center;
+
+main {
+    display: grid;
+    justify-content: center;
 }
 
 /* ------------
  section style
 ---------------  */
-.container{
+.container {
+
     margin-top: 50px;
     border-radius: 20px;
-    background-color:#101010;
+    background-color: #101010;
 }
+
 .blogs {
     display: flex;
     width: 800px;
 }
-.blog{
+
+.blog {
     margin-top: 20px;
     margin-left: 80px;
     color: whitesmoke;
 }
-.title{
+
+.title {
     margin-top: 20px;
     margin-bottom: 0px;
     font-size: 30px;
 }
-.pragraph{
+
+.pragraph {
     margin-bottom: 25px;
     font-size: 10px;
 }
-.watch-button{
+
+.watch-button {
     display: inline;
 
     border-radius: 5px;
     background-color: red;
     padding: 10px 35px 10px 10px;
 }
-.banner-images{
+
+.banner-images {
     margin-left: 110px;
     margin-top: 20px;
-   
+    max-width: max-content;
+
+}
+
+/* -----------------
+section style two 
+-------------------*/
+.second-container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding: 15px 25px 40px 25px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #101010;
+}
+
+.blog-two {
+
+    width: 350px;
+    height: 200px;
+
+}
+
+#upcoming {
+    text-align: center;
+
+    border-radius: 5px;
+    margin: 25px 10px 10px 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
+.items {
+
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 25px 10px 10px 10px;
+    padding: 10px;
+    background-color: #E6E6E6;
+}
+
+/*----------------
+duration style info
+---------------*/
+.grid-laout {
+    
+    display: grid;
+    margin-top: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 120px;
+    gap: 10px;
+}
+
+
+.duration-info {
+    width: 200px;
+    height: 160px;
+    border: 1px solid rgb(203, 202, 202);
+    border-radius: 5px;
+    box-shadow: 1px rgb(167, 167, 167);
+    background-color: whitesmoke;
+
+}
+
+.country {
+    margin-top: 20px;
+    display: flex;
+    width: 312px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.images {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.info {
+
+    margin-left: 15px;
+
+}
+
+.gerfar {
+
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.time {
+    margin-top: 0px;
+    font-size: 11px;
+    color: grey;
+    font-weight: lighter;
+    margin-left: 20px;
 }
