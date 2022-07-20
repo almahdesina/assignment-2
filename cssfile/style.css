@@ -200,7 +200,17 @@ p {
     margin-left: 20px;
     padding-bottom: 10px;
 }
-
+.viewall{
+    width: 150px;
+    text-align: center;
+    margin-top: 30px ;
+    margin-left: 500px;
+    padding: 2px 0px 0px 0px ;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
 /* ----------------------
        footer styles
 ------------------------- */
